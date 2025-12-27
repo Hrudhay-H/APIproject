@@ -11,7 +11,7 @@ export const Navbar = ({ activeTab, setActiveTab, darkMode, toggleDarkMode, user
                 <div className="w-8 h-8 rounded-full bg-anti-accent flex items-center justify-center shadow-lg shadow-anti-accent/20">
                     <Zap size={16} className="text-white fill-white" />
                 </div>
-                <span className={`ml-3 font-bold ${darkMode ? 'text-dark-text' : 'text-anti-dark'} tracking-tight text-sm hidden sm:block`}>Antigravity</span>
+                <span className={`ml-3 font-bold ${darkMode ? 'text-dark-text' : 'text-anti-dark'} tracking-tight text-sm hidden sm:block`}>APIfy</span>
             </div>
 
             <div className="flex items-center">
